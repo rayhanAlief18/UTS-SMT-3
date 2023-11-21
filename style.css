@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Kanit&display=swap');
+/* font */
+/* font-family: 'Kaisei Decol', serif;
+font-family: 'Kanit', sans-serif; */
+
+*{
+    padding:0;
+    margin:0;
+    scroll-behavior: smooth;
+}
+
+
+/* global */
+
+
+.btn{
+    border: 1px solid #000000;
+    padding:10px;
+    border-radius:10px;
+    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kaisei Decol', serif; */
+    text-decoration:none;
+    cursor:pointer;
+    background-color:#E1901F;
+}
+
+.btn:hover{
+    background-color:#F4991A;
+}
+
+
+/* about */
+.about-full{
+    background-color : #F2EAD3;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    /* padding-left:80px;
+    padding-right:80px; */
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding:30px;
+    align-items:center;
+    margin:0px 50px 0px 50px;
+}
+
+nav h3{
+    font-size:2rem;
+    margin-top:40px;
+    font-family: 'Kaisei Decol', serif;
+    color :#321313;
+
+}
+nav div{
+    margin-top:17px;
+    display:flex;
+    gap:52px;
+    color :#321313;
+}
+nav div a{
+    font-size:20px;
+}
+nav div a:hover{
+    border-radius: 0.5px;
+}
+
+nav  a{
+    margin-top:40px;
+    font-family: 'Kanit', sans-serif;
+    text-decoration:none;
+}
+
+.bg-about{
+    display:flex;
+    justify-content:space-evenly;
+    justify-items:center;
+    margin-top:128px;
+    gap:300px;
+}
+
+/* popular */
+.popular-full{
+    background-color : #FFFFFF;
+    /* height:100vh; */
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.display-card{
+    width:100%;
+    /* padding-left:160px; */
+    /* padding-right:160px; */
+    display:flex;
+    gap:40px;
+    justify-content:center;
+    aalign-items:center;
+}
+
+.title{
+    font-size:30px;
+    margin-bottom:40px;
+}
+
+.card{
+    border: 1px solid #D9D9D9;
+    background-color:#D9D9D9;
+    padding:10px 10px 0px 10px;
+    border-radius:10px;
+    transition: 300ms all ease;
+    max-width:300px;
+    max-height:400px
+}
+
+.popular-title{
+    margin-top:50px;
+    margin-left: 370px;
+}
+
+.card-img{
+    border-radius:10px;
+    max-width: 240px;
+    max-height:250.17px;
+}
+
+.card-price{
+    font-family: 'Kanit', sans-serif; 
+    font-size:18px;
+}
+.card:hover{
+    transition: 300ms all ease;
+    border: 1px solid #F2EAD3;
+    background-color:#F2EAD3;
+    transform: scale(1.1);
+}
+
+footer{
+    height:200px;
+    background-color:#E1901F;
+}
+
+.f-title{
+    font-size : 30px;
+    font-weight:bold;
+}
+
+.footer-add{
+    font-size: 20px;
+    font-family: 'Kaisei Decol', serif;
+}
+.sticky{
+    background-color:#E1901F;
+    width:100%;
+    transition:ease 500ms all;
+    border-bottom: 1px solid #E1901F !important; 
+    /* border-radius:0px 0px 50px 50px; */
+    z-index:100;
+}

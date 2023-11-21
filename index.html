@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <section class="about-full">
+
+            <header style="position:fixed; transition: ease 300ms all;border-bottom: 1px solid #321313; width: 100%; margin-bottom: 300px; margin-top:-60px" class="sticky">
+                <nav>
+                    <h3>Book</h3>
+                    <div>
+                        <a href="#about">About</a>
+                        <a href="#popular">Popular</a>
+                        <a href="#contact">Contact Us</a>
+                    </div>
+                    <!-- <a href="#popular" class="btn">Sign In</a> -->
+
+                </nav>
+            </header>
+            <hr style="height:2px;border-width:0;color:gray;background-color:gray; opacity: 0%;">
+            <div class="bg-about" id="about" style="margin-top: 300px;">
+                <div style="display: flex; flex-direction:column; justify-content:center;">
+                    <img src="./assets/about1.png" width="110%" alt="">
+                    <a href="#popular" class="btn" style="width:136px; text-align:center; margin-top: 36px;">Get Started</a>
+                </div>
+                <div>
+                    <img src="./assets/about.png" width="110%" alt="">
+                </div>
+            </div>
+        </section>
+
+        <h3 class="title popular-title"> Popular Book</h3>
+        <section class="popular-full" id="popular">
+            <div class="display-card">
+                <div class="card">
+                    <img src="/assets/fatihhf.jpg" alt="" class="card-img">
+                    <div style="display:flex ; justify-content:space-evenly; align-items:center; margin-top: 20px; margin-bottom: 26px;">
+                        <button class="btn" style="width: 120px; ;">
+                            <a href="detailBook.html" style="color:black; text-decoration: none;">Buy</a>
+                        
+                        </button>
+                        <p class="card-price">Rp 98.000</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/assets/book2.png" alt="" class="card-img">
+                    <div style="display:flex ; justify-content:space-evenly; align-items:center; margin-top: 20px; margin-bottom: 26px;">
+                        <button class="btn" style="width: 120px; ;">Buy</button>
+                        <p class="card-price">Rp 98.000</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/assets/book3.png" alt="" class="card-img">
+                    <div style="display:flex ; justify-content:space-evenly; align-items:center; margin-top: 20px; margin-bottom: 26px;">
+                        <button class="btn" style="width: 120px; ;">Buy</button>
+                        <p class="card-price">Rp 98.000</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/assets/book4.png" alt="" class="card-img">
+                    <div style="display:flex ; justify-content:space-evenly; align-items:center; margin-top: 20px; margin-bottom: 26px;">
+                        <button class="btn" style="width: 120px; ;">Buy</button>
+                        <p class="card-price">Rp 98.000</p>
+                    </div>
+                </div>
+
+            </div>
+            <a href="allCategories.html" class="btn" style="color: black; width: 400px; height:50px; font-size:20px; text-Align:center; margin-top: 69px; margin-bottom: 69px; display: flex; align-items: center; justify-content: center;">
+                <p>See All Categories</p>
+            </a>
+
+
+        </section>
+        <footer style="padding:60px 60px 30px 60px ;" id="contact">
+            <h3 class="f-title">Book</h3>
+            <div style="display: flex; justify-content: space-between; align-items: flex-end;">
+                <div style="margin-top:52px;">
+                    <p class="footer-add">123 Jalan bahagia Keluarga Sejahtera</p>
+                    <p class="footer-add">Kota Ceria</p>
+                </div>
+                <div style="display: flex; gap:20px;">
+                    <a href=""><img src="/assets/ig.png" alt=""></a>
+                    <a href=""><img src="/assets/fb.png" alt=""></a>
+                </div>
+            </div>
+            <div style="border-bottom: 1px solid black; margin:10px 0px 10px 0px"></div>
+            <p style="text-align: center; font-size:20px; margin-top:6px; margin-bottom:30px; font-weight: bold;">@2023 Copyright BOOK</p>
+        </footer>
+    </section>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function() {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0)
+        })
+    </script>
+</body>
+
+</html>

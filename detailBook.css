@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Kanit&display=swap');
+/* font */
+/* font-family: 'Kaisei Decol', serif;
+font-family: 'Kanit', sans-serif; */
+
+
+*{
+    padding:0;
+    margin:0;
+}
+
+
+.bg{
+    display:flex;
+    gap:0;
+    flex-direction:row;
+    width:100%;
+    justify-content:center;
+    height:100vh;
+    /* align-items:center; */
+}
+
+.img-detail{
+    background-color: green;
+    height:100vh;
+    width:45%;
+}
+
+.desc-detail{
+    background-color:#F5F7F8;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    /* align-items:center; */
+    width:45%;
+    padding:100px 150px 100px 150px;
+}
+
+.desc-product{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.title-product{
+    font-family: 'Kanit', sans-serif;
+    font-size:5rem;
+    letter-spacing:10px;
+}
+
+.writer-product{
+    font-weight:lighter;
+    font-family: 'Kanit', sans-serif;
+    font-size:25px;
+}
+
+
+.tag-detail{
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+.price-product{
+    font-family: 'Kanit', sans-serif;
+    font-size:2rem;
+    
+}
+
+.price-btn{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.buy-chart{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.btn-buy{
+    border: 1px solid orange;
+    margin-top:1px;
+    padding:10px 70px 10px 70px;
+    border-radius:5px;
+    background-color:#E1901F;
+    /* font-family: 'Kaisei Decol', serif; */
+    font-family: 'Kanit', sans-serif;
+}
+
+.btn-buy:hover{
+    background-color:#F4991A;
+}
+
+.btn-back{
+    margin:20pxl;
+    transition: all 500ms ease;
+    border-radius:5px;
+
+}
+
+.btn-back:hover{
+    border: 1px solid orange;
+    margin-top:1px;
+    padding:1px;
+    border-radius:5px;
+    background-color:#E1901F;
+    margin:20px;
+    transition: all  500ms ease;
+}
