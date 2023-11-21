@@ -74,6 +74,10 @@ nav  a{
     text-decoration:none;
 }
 
+nav  a:hover{
+    color:white;
+}
+
 .bg-about{
     display:flex;
     justify-content:space-evenly;
